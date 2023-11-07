@@ -9,7 +9,7 @@ import Footer from "./component/Footer";
 import Login from "./component/Login";
 import Contact from "./component/Contact";
 import Add from "./component/AddMovies";
-import Update from "./component/UpdateActor";
+import Update from "./component/UpdateMovies";
 import { Route } from "react-router-dom";
 
 function App() {
