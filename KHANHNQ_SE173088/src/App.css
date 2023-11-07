@@ -1,0 +1,261 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px; /* height of the footer */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content {
+  padding-bottom: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Title-Dash {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #61dafb;
+}
+
+.Home-title {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 50px;
+  padding: 0;
+  color: #61dafb;
+}
+
+/* Footer CSS/SCSS */
+.footer {
+  background: linear-gradient(to right, #00ffff, #0080ff);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  animation: bounce 1s infinite;
+  position: relative;
+}
+
+.footer:hover {
+  background: linear-gradient(to right, #00ffff, #8000ff);
+}
+
+.subscribe-button {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale;
+  }
+}
+
+.footer-text {
+  font-size: 18px;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Các phần CSS/SCSS khác trong App.scss */
+/* Home title */
+
+/* Grid container */
+.grid-container {
+  margin-top: 2rem;
+}
+
+/* Card */
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+  border-radius: 1rem;
+  border-color: #28a745;
+  overflow: hidden;
+  margin: 10px;
+}
+
+/* Card on hover */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Card media */
+.card-media {
+  height: 240px;
+  object-fit: cover;
+}
+
+/* Card content */
+.card-content {
+  padding: 1rem;
+}
+
+/* Card actions */
+.card-actions {
+  padding: 1rem;
+  text-align: right;
+}
+
+/* Detail button */
+.detail-button {
+  background-color: green;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Detail button on hover */
+.detail-button:hover {
+  background-color: #28a745;
+}
+
+/* CSS for DashBoard.js */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #eee;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ccc;
+}
+
+.action {
+  text-align: center;
+}
+
+.action button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.action button:hover {
+  background-color: #ccc;
+}
+
+/* CSS for dialog */
+
+.dialog-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dialog-content {
+  font-size: 16px;
+}
+
+.dialog-actions {
+  text-align: center;
+}
+
+.dialog-actions button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dialog-actions button:hover {
+  background-color: #ccc;
+}
+
+.detail-title {
+  font-weight: bold;
+  padding-top: 40px;
+  color: #10bfd2;
+}
+
+.font-pages {
+  font-size: 36px;
+  font-weight: bold;
+  color: gray;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  margin-top: 70px;
+  padding-left: 5px;
+}
+
+.dashboard-content {
+  font-size: 18px;
+  color: gray;
+  text-shadow: 1px 1px 2px rgba(11, 57, 222, 0.5);
+  margin-bottom: 40px;
+  padding-left: 5px;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  height: 76vh;
+}
+
+.login-title {
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.login-para {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-page {
+  margin: 10px;
+}
